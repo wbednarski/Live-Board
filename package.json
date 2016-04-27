@@ -1,5 +1,5 @@
 {
-  "name": "Live Board",
+  "name": "live-board",
   "version": "1.0.0",
   "private": true,
   "description": "Live Board is a message board powered by Node.js, Redis, and WebSocket.",

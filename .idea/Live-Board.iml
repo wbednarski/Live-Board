@@ -5,4 +5,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="RModuleSettingsStorage">
+    <LOAD_PATH number="2" string0="$MODULE_DIR$/node_modules" string1="$MODULE_DIR$" />
+    <I18N_FOLDERS number="0" />
+  </component>
 </module>

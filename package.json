@@ -1,0 +1,32 @@
+{
+  "name": "Live Board",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Live Board is a message board powered by Node.js, Redis, and WebSocket.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbednarski/Live-Board.git"
+  },
+  "keywords": [],
+  "author": "Wojciech Bednarski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbednarski/Live-Board/issues"
+  },
+  "homepage": "https://github.com/wbednarski/Live-Board#readme",
+  "engines": {
+    "node": "^6.0.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "redis": "^2.6.0-1",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}

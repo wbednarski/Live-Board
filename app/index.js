@@ -1,9 +1,9 @@
 let express = require('express');
 let app = express();
 let server = require('http').createServer(app);
-let  io = require('socket.io')(server);
-let  redis = require('redis');
-let  redisClient = redis.createClient();
+let io = require('socket.io')(server);
+let redis = require('redis');
+let redisClient = redis.createClient();
 
 const SETTINGS = {
   MESSAGE_MAX_LENGTH: 199,
